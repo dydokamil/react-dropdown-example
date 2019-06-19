@@ -131,9 +131,38 @@ function App() {
         </div>
       </Card>
 
+      <Card>
+        <h2>Overflow example</h2>
+        <div className="code-wrapper">
+          <div className="code">{`mode='hover'`}</div>
+        </div>
+        <div className="overflow-wrapper">
+          <div className="dropdown-container">
+            <Dropdown dropdown={<DropdownContent />}>
+              <button className="button-toggle">Toggle</button>
+            </Dropdown>
+          </div>
+          <div className="dropdown-container">
+            <Dropdown dropdown={<DropdownContent />}>
+              <button className="button-toggle">Toggle</button>
+            </Dropdown>
+          </div>
+          <div className="dropdown-container">
+            <Dropdown dropdown={<DropdownContent />}>
+              <button className="button-toggle">Toggle</button>
+            </Dropdown>
+          </div>
+          <div className="dropdown-container">
+            <Dropdown dropdown={<DropdownContent />}>
+              <button className="button-toggle">Toggle</button>
+            </Dropdown>
+          </div>
+        </div>
+      </Card>
+
       <Card
         code={[
-          `<Dropdown mode="click" positioning="right" dropdown={<DropdownContent />}>`,
+          `<Dropdown mode="click" isOpen dropdown={<DropdownContent />}>`,
           `  <button className="button-toggle">Toggle</button>`,
           `</Dropdown>`
         ]}

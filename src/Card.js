@@ -8,14 +8,16 @@ function Card({ children, code }) {
   return (
     <div className="card">
       {children}
-      <div className="code-button-wrapper">
-        <button
-          className="code-toggle-button"
-          onClick={() => setIsCodeShown(curr => !curr)}
-        >
-          <CodeIcon width="20px" height="20px" />
-        </button>
-      </div>
+      {code && (
+        <div className="code-button-wrapper">
+          <button
+            className="code-toggle-button"
+            onClick={() => setIsCodeShown(curr => !curr)}
+          >
+            <CodeIcon width="20px" height="20px" />
+          </button>
+        </div>
+      )}
       {isCodeShown && (
         <div className="code-big-wrapper">
           <div className="code">

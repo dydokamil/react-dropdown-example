@@ -7987,10 +7987,10 @@ react-dom@^16.8.6:
     prop-types "^15.6.2"
     scheduler "^0.13.6"
 
-react-dropdown-overflow@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/react-dropdown-overflow/-/react-dropdown-overflow-1.6.1.tgz#3bcf2dea6837412542e145d04f068dc571f5db87"
-  integrity sha512-Z8w8DKP87Wty26aRUwmw2X9904RE0WfwDkrfBP2bKYXyArcMX1G/FJqhoK2PDwqYyXtr931acdTu9NHIoXDXoA==
+react-dropdown-overflow@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/react-dropdown-overflow/-/react-dropdown-overflow-1.6.2.tgz#6fab85811bad00e4e5d31e8ecd49dcc94b1fc32e"
+  integrity sha512-pPiVFO/Xw4I2SQRDQW8gk0cV/CIkLtkcr4gcJ1dF1OmtrGZiJllU9FxJEfZSeeBoqkHr4WeYtwgaAUQWP+sgyA==
 
 react-error-overlay@^5.1.6:
   version "5.1.6"
