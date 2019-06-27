@@ -111,7 +111,7 @@ function App() {
 
       <Card
         code={[
-          `<Dropdown mode="click" positioning="right" dropdown={<DropdownContent />}>`,
+          `<Dropdown mode="click" hasClickOutsideListener dropdown={<DropdownContent />}>`,
           `  <button className="button-toggle">Toggle</button>`,
           `</Dropdown>`
         ]}
