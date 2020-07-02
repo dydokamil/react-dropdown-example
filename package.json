@@ -1,21 +1,21 @@
 {
-  "name": "react-dropdown-example-v2",
+  "name": "react-dropdown-example-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dydokamil.github.io/react-dropdown-example/",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-dropdown-overflow": "^1.6.2",
-    "react-scripts": "3.0.1"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-dropdown-overflow": "^1.7.0-rc1",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,8 +31,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
   }
 }
